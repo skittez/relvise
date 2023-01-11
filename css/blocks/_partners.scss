@@ -1,0 +1,35 @@
+.partners {
+    padding: 90px 0 70px 0px;
+    margin: 80px 0 0 0;
+    background-color: $background__color;
+
+    &-item-3 {
+        margin-top: -25px;
+        margin-bottom: 25px;
+    }
+    &-item-6 {
+        margin-top: -20px;
+    }
+    &-background {
+        background-image: url('../img/background-partners.png');
+        min-height: 80px;
+    }
+}
+
+///////////////// 
+
+@media (max-width: 991.98px) {
+    .partners {
+        padding: 40px 0 40px 0;
+    }
+}
+
+@media (max-width: 419.98px) {
+    .partners-item-3 {
+        margin-top: -10px;
+    }
+
+    .partners-item-6 {
+        margin-top: -10px;
+    }
+}

@@ -1,0 +1,68 @@
+li {
+    position: relative;
+    list-style: none;
+    padding-left: 40px;
+}
+
+li::before {
+    position: absolute;
+    content: "";
+    left: -10px;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+}
+
+ul {
+    padding: 0;
+    color: $gray;
+    font-size: 14px;
+}
+
+.who {
+
+    &-header {
+        margin: 120px 0 80px 0;
+    }
+
+    &-description {
+        max-width: 45%;
+    }
+}
+
+.who-info {
+
+    &-li__first::before {
+        background-image: url("../img/icons/icons-bullet-1.png");
+    }
+
+    &-li__second::before {
+        background-image: url("../img/icons/icons-bullet-2.png");
+    }
+
+    &-black__text {
+        font-size: 16px;
+        font-weight: 700;
+        color: $black;
+    }
+}
+
+.who-info .block__description {
+    max-width: unset;
+}
+
+
+/////////////////////////////
+
+@media (max-width: 991.98px) {
+    .who-description {
+        max-width: 100%;
+    }
+    .who-header {
+        margin: 70px 0 30px 0;
+    }
+}
+
+
+

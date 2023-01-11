@@ -1,0 +1,64 @@
+.touch {
+    background-color: $background__color;
+
+    &-item {
+        background: #FFFFFF;
+        padding: 25px 20px 25px 20px;
+        //box-shadow: 3px 1px 6px 1px rgb(0 0 0 / 7%);
+        min-width: 230px;
+
+        &-header {
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 24px;
+            color: $black;
+        }
+
+        &-text {
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        &-button {
+            color: $orange;
+            border: 1px solid $orange;
+            padding: 10px 20px 10px 20px;
+            border-radius: 7px;
+        }
+
+        &-2 {
+            background-color: $dark;
+            color: $white;
+            min-height: 370px;
+        }
+    }
+
+    &-body {
+        padding: 10px 0px 120px 0px;
+    }
+}
+
+.touch-item-2 p {
+    color: $white;
+}
+
+.touch-item-2 button {
+    color: $white;
+    border: 1px solid $white;
+}
+
+.item__2__mt {
+    margin-top: 60px;
+}
+
+
+
+
+
+//////////////////////////
+
+@media (max-width: 991.98px) {
+    .touch-item-2 {
+        min-height: unset;
+    }
+}

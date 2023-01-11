@@ -1,0 +1,41 @@
+.design {
+    background-color: $background__color;
+
+    &-header {
+        margin: 70px 0px 40px 0px;
+    }
+
+    &-item {
+        background: $white;
+        padding: 25px 20px 25px 20px;
+        box-shadow: 3px 1px 6px 1px rgb(0 0 0 / 7%);
+        min-width: 230px;
+
+        &-counter {
+            font-size: 40px;
+            font-weight: 700;
+        }
+
+        &-text {
+            font-size: 16px;
+            font-weight: 700;
+        }
+    }
+}
+
+/////////////////////////////////////////
+
+@media (max-width: 991.98px) {
+    .design-item {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .design-text {
+        max-width: unset;
+    }
+    .design-item {
+        margin: 5px;
+    }
+}

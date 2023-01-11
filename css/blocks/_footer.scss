@@ -1,0 +1,89 @@
+.footer h6 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.footer p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: $gray;
+}
+
+.footer {
+
+    &-button {
+        background: $orange;
+        padding: 15px 40px 15px 40px;
+        border-radius: 5px;
+        color: $white;
+    }
+}
+
+footer {
+    background: $dark;
+    
+}
+
+footer .btn {
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+footer .btn:hover {
+    color: $white;
+}
+
+footer .btn.focus, .btn:focus {
+        box-shadow: unset;
+}
+
+.contacts {
+
+    &-item {
+        padding: 50px 0px 50px 0px;
+        color: $white;
+    }
+}
+
+.contacts p {
+    color: $white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.contacts p a {
+    color: $white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.dropdown-toggle {
+    color: $white;
+}
+
+.footer-mobile {
+    display: none;
+}
+
+
+
+
+//////////////////////
+
+@media (max-width: 991.98px) {
+    .footer-desktop {
+        display: none !important;
+    }
+
+    .footer-mobile {
+        display: block;
+    }
+}
+
+@media (min-width: 767.98px) {
+    .footer-mobile {
+        margin-left: -1.8rem;
+    }
+}

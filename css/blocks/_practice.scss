@@ -1,0 +1,69 @@
+.practice {
+    background-color: $background__color;
+    padding-bottom: 80px;
+
+    &-header {
+        padding: 150px 0px 40px 0px;
+    }
+
+    &-item {
+        background: $white;
+        box-shadow: 3px 1px 6px 1px rgb(0 0 0 / 7%);
+        min-width: 230px;
+        overflow: hidden;
+
+        &-header {
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        &-text {
+            font-size: 14px;
+            font-weight: 500;
+            color: $gray;
+        }
+    }
+
+    &-body {
+        padding: 25px 15px 25px 15px;
+    }
+
+    &-img {
+        min-width: 125%;
+        margin-left: -15px;
+    }
+}
+
+
+
+
+
+/////////////////////////
+
+@media (min-width: 991.98px) {
+    .practice-item-1 img{
+        margin-top: -20px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .practice-item {
+        margin-top: 50px;
+    }
+    .practice-img {
+        margin-bottom: -25px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .practice-header {
+        padding: 90px 0px 40px 0px;
+    }
+    .practice-item {
+        margin-top: 30px;
+
+        &-header {
+            font-size: 22px;
+        }
+    }
+}
